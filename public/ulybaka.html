@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW_2_Anton_Stognij</title>
+    <style>
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+            width: 70%;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        table img {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html">Назад</a>
+    <br>
+    <hr>
+    <!-- виходячи з картинок таблиця має бути 3*4 -->
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../img/ulybaka_01.jpg" alt="part of a dog"></td>
+                <!-- 2 картина має займати 3 рядки так 7 картинка вже займає 1 рядок-->
+                <td rowspan="3"><img src="../img/ulybaka_02.jpg" alt="part of a dog"></td>
+                <td> <img src="../img/ulybaka_03.jpg" alt="part of a dog"></td>
+            </tr>
+            <tr>
+                <!-- 4 картина має займати 3 рядки так 1 картинка займає вже 1  -->
+                <td rowspan="3"><img src="../img/ulybaka_04.jpg" alt="part of a dog"></td>
+                <td><img src="../img/ulybaka_05.jpg" alt="part of a dog"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/ulybaka_06.jpg" alt="part of a dog"></td>
+            </tr>
+            <tr>
+                <!-- 7 картина має займати 2 колонки так 4 картинка вже займає 1  -->
+                <td colspan="2"><img src="../img/ulybaka_07.jpg" alt="part of a dog"></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+</body>
+
+</html>
